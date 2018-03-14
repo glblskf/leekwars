@@ -1,0 +1,169 @@
+// Toutes les infos sur les armes du jeu. Il n'est peut-etre pas complet.
+// Every infos on the weapons. May be uncomplete
+
+global WEAPON_INFO = [
+	WEAPON_PISTOL : [
+		"type"    : "range",
+		"areaType": "cell",
+		"range"   : [ 1,  7 ],
+		"damage"  : [ 15, 20],
+		"cost"    : 3,
+		"special" : []
+	],
+	WEAPON_MACHINE_GUN : [
+		"type"    : "line",
+		"areaType": "cell",
+		"range"   : [ 1,  6],
+		"damage"  : [ 30, 35],
+		"cost"    : 4,
+		"special" : []
+	],
+	WEAPON_DOUBLE_GUN : [
+		"type"    : "range",
+		"areaType": "cell",
+		"range"   : [ 2,  7],
+		"damage"  : [ 18, 25],
+		"cost"    : 4,
+		"special" : []
+	],
+	WEAPON_SHOTGUN : [
+		"type"    : "line",
+		"areaType": "cell",
+		"range"   : [ 1,  5],
+		"damage"  : [ 33, 44],
+		"cost"    : 5,
+		"special" : []
+	],
+	WEAPON_MAGNUM : [
+		"type"    : "range",
+		"areaType": "cell",
+		"range"   : [ 1,  8],
+		"damage"  : [ 25, 40],
+		"cost"    : 5,
+		"special" : []
+	],
+	WEAPON_BROADSWORD : [
+		"type"    : "single",
+		"areaType": "cell",
+		"range"   : [ 1,  1 ],
+		"damage"  : [ 39, 41],
+		"cost"    : 5,
+		"special" : ["remTP"],
+		"remTP"   : [
+			"amount"   : [0.3, 0.4],
+			"duration" : 1
+		],
+	],
+	WEAPON_LASER : [
+		"type"    : "line",
+		"areaType": "line",
+		"range"   : [ 2,  7 ],
+		"damage"  : [ 43, 59],
+		"cost"    : 6,
+		"special" : []
+	],
+	WEAPON_AXE : [
+		"type"    : "single",
+		"areaType": "cell",
+		"range"   : [ 1,  1 ],
+		"damage"  : [ 44, 77],
+		"cost"    : 6,
+		"special" : ["remMP"],
+		"remMp"   : [
+			"amount"   : [0.5, 0.6],
+			"duration" : 1
+		],
+	],
+	WEAPON_GRENADE_LAUNCHER : [
+		"type"    : "range",
+		"areaType": "zone5",
+		"range"   : [ 4,  7 ],
+		"damage"  : [ 45, 53],
+		"cost"    : 6,
+		"special" : []
+	],
+	WEAPON_FLAME_THROWER : [
+		"type"    : "line",
+		"areaType": "line",
+		"range"   : [ 2,  8 ],
+		"damage"  : [ 35, 40],
+		"cost"    : 6,
+		"special" : ["poison"],
+		"poison"  : [
+			"amount"   : [24, 30],
+			"duration" : 2, 
+		]
+	],
+	WEAPON_DESTROYER : [
+		"type"    : "range",
+		"areaType": "cell",
+		"range"   : [ 1,  6 ],
+		"damage"  : [ 40, 60],
+		"cost"    : 6,
+		"special" : ["remStr"],
+		"remStr"  : [
+			"amount"  : [12, 12],
+			"duration": 2
+		]
+	],
+	WEAPON_GAZOR : [
+		"type"    : "line",
+		"areaType": "area7",
+		"range"   : [ 2,  7 ],
+		"damage"  : [ 0, 0],
+		"cost"    : 7,
+		"special" : ["poison"],
+		"poison"  : [
+			"amount"  : [27, 32],
+			"duration": 3
+		]
+	],
+	WEAPON_B_LASER : [
+		"type"    : "line",
+		"areaType": "line",
+		"range"   : [ 2,  8 ],
+		"damage"  : [ 50, 60],
+		"cost"    : 5,
+		"special" : ["restore"],
+		"restore"  : [
+			"amount"  : [50, 60],
+			"duration": 1
+		]
+	],
+	WEAPON_KATANA : [
+		"type"    : "single",
+		"areaType": "cell",
+		"range"   : [ 1,  1 ],
+		"damage"  : [ 77, 77],
+		"cost"    : 7,
+		"special" : ["remStr", "remMP", "remTP"],
+		"remStr"  : [
+			"amount"  : [20, 20],
+			"duration": 1
+		],
+		"remMP"   : [
+			"amount"  : [0.2, 0.3],
+			"duration": 1
+		],
+		"remTP"   : [
+			"amount"  : [0.2, 0.3],
+			"duration": 1
+		]
+	],
+	WEAPON_ELECTRISOR : [
+		"type"    : "range",
+		"areaType": "zone3",
+		"range"   : [ 7,  7 ],
+		"damage"  : [ 70, 80],
+		"cost"    : 7,
+		"special" : [],
+	],
+	WEAPON_M_LASER : [
+		"type"    : "line",
+		"areaType": "line",
+		"range"   : [ 4,  12 ],
+		"damage"  : [ 90, 100],
+		"cost"    : 8,
+		"special" : []
+	]
+];
