@@ -1,6 +1,8 @@
 // Toutes les infos sur les chips du jeu. Il n'est peut-etre pas complet.
 // Every infos on the chips. May be uncomplete
 
+// Yet to be completed
+
 global CHIP_INFO = [
 	CHIP_SHOCK : [
 		"type"     : "range",
