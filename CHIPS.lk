@@ -1,0 +1,186 @@
+// Toutes les infos sur les chips du jeu. Il n'est peut-etre pas complet.
+// Every infos on the chips. May be uncomplete
+
+global CHIP_INFO = [
+	CHIP_SHOCK : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 6],
+		"cost"     : 2,
+		"type"     : "attack",
+		"attack"   : [5, 7],
+		"cooldown" : 0,
+		"needLos"  : true
+	],
+	CHIP_PEBBLE : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 5],
+		"cost"     : 2,
+		"type"     : "attack",
+		"attack"    : [2, 17],
+		"cooldown" : 1,
+		"needLos"  : true
+	],
+	CHIP_SPARK : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 10],
+		"cost"     : 3,
+		"type"     : "attack",
+		"attack"    : [8, 16],
+		"cooldown" : 0,
+		"needLos"  : false
+	],
+	CHIP_ICE : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 8],
+		"cost"     : 4,
+		"type"     : "attack",
+		"attack"    : [17, 19],
+		"cooldown" : 0,
+		"needLos"  : true
+	],
+	CHIP_PEBBLE : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 5],
+		"cost"     : 2,
+		"type"     : "attack",
+		"attack"    : [2, 17],
+		"cooldown" : 1,
+		"needLos"  : true
+	],
+	CHIP_BANDAGE : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 6],
+		"cost"     : 2,
+		"type"     : "heal",
+		"heal"     : [10, 15],
+		"cooldown" : 1,
+		"needLos"  : true
+	],
+	CHIP_HELMET : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 4],
+		"cost"     : 3,
+		"type"     : "defense",
+		"defense"  : [
+			"amount"   : 15,
+			"duration" : 2
+		],
+		"cooldown" : 3,
+		"needLos"  : true
+	],
+	CHIP_ROCK : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [2, 6],
+		"cost"     : 5,
+		"type"     : "attack",
+		"attack"   : [30, 31]
+		"cooldown" : 1,
+		"needLos"  : true
+	],
+	CHIP_ROCK : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 5],
+		"cost"     : 3,
+		"type"     : "buffAGI",
+		"buffAGI"  : [
+			"amount"   : [30, 35],
+			"duration" : 2
+		],
+		"cooldown" : 3,
+		"needLos"  : true
+	],
+	CHIP_WALL : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 3],
+		"cost"     : 3,
+		"type"     : "defense",
+		"defense"  : [
+			"amount"   : [0.05, 0.06],
+			"duration" : 2
+		],
+		"cooldown" : 4,
+		"needLos"  : true
+	],
+	CHIP_PROTEIN : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 4],
+		"cost"     : 3,
+		"type"     : "buffSTR",
+		"buffSTR"  : [
+			"amount"   : [30, 35],
+			"duration" : 2
+		]
+		"cooldown" : 1,
+		"needLos"  : true
+	],
+	CHIP_SHIELD : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 2],
+		"cost"     : 4,
+		"type"     : "defense",
+		"defense"  : [
+			"amount"  : [20, 20],
+			"duration": 3
+		]
+		"cooldown" : 1,
+		"needLos"  : true
+	],
+	CHIP_CURE : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 5],
+		"cost"     : 4,
+		"type"     : "heal",
+		"heal"     : [35, 43],
+		"cooldown" : 2,
+		"needLos"  : true
+	],
+	CHIP_FLASH : [
+		"type"     : "line",
+		"areaType" : "zone3",
+		"range"    : [1, 7],
+		"cost"     : 4,
+		"type"     : "attack",
+		"attack"   : [19, 24],
+		"cooldown" : 1,
+		"needLos"  : true
+	],
+	CHIP_MOTIVATION : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 5],
+		"cost"     : 3,
+		"type"     : "buffTP",
+		"buffTP"   : [
+			"amount"   : [0.5, 0.5],
+			"duration" : 2
+		],
+		"cooldown" : 3,
+		"needLos"  : true
+	],
+	CHIP_LEATHER_BOOTS : [
+		"type"     : "range",
+		"areaType" : "cell",
+		"range"    : [0, 5],
+		"cost"     : 3,
+		"type"     : "buffMP",
+		"buffMP"   : [
+			"amount"   : [0.4, 0.5],
+			"duration" : 2
+		],
+		"cooldown" : 3,
+		"needLos"  : true 
+	],
+];
